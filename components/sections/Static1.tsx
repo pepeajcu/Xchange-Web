@@ -5,12 +5,11 @@ import CountUp from 'react-countup'
 export default function Static1() {
 	return (
 		<>
-
 			<section className="section-static-1 position-relative bg-primary fix z-0 section-padding">
 				<div className="container position-relative z-3">
 					<div className="row border-bottom border-primary-light pb-8">
 						<div className="col-lg-6 me-lg-auto">
-							<h5 className="ds-5 text-100 m-0">Tangible Results that Speak for Us</h5>
+							<h5 className="ds-5 text-100 m-0">Tangible Results <br/> that Speak for Us</h5>
 						</div>
 						<div className="col-auto align-self-end mt-lg-0 mt-5">
 							<Link href="#" className="btn btn-outline-secondary hover-up bg-transparent text-100">

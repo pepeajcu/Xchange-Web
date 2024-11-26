@@ -50,7 +50,7 @@ export default function Project2() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Recent work</span>
 							</div>
-							<h3 className="ds-3 mt-3 mb-3">Our feared projects</h3>
+							<h3 className="ds-3 mt-3 mb-3">Success stories</h3>
 							<p className="fs-5 fw-medium">⚡Don't miss any contact. Stay connected.</p>
 						</div>
 						<div className="col-lg-2 col-md-3 col-6 ms-auto align-self-end mb-lg-7 mt-lg-0 mt-4">

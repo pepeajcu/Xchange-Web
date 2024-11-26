@@ -45,15 +45,18 @@ export default function Hero1() {
 										<span className="fs-6 fw-bold">4.8/5 <span className="text-secondary fw-medium">(26k Reviews)</span></span>
 									</div>
 									*/}
-									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300}>
-										<img src="/assets/imgs/hero-1/brand-1.svg" alt="infinia" />
+									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300} style={{ width: "71px" }}>
+										<img src="/assets/imgs/template/brands/coca-cola.svg" alt="infinia" />
+										
 									</div>
-									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300}>
-										<img src="/assets/imgs/hero-1/brand-1.svg" alt="infinia" />
+									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300} style={{ width: "71px" }}>
+										<img src="/assets/imgs/template/brands/downy.svg" alt="infinia" />
 									</div>
-									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300}>
-										<img src="/assets/imgs/hero-1/brand-2.svg" alt="infinia" />
+									<div className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300} style={{ width: "81px" }}>
+										<img src="/assets/imgs/template/brands/walmart.svg" alt="infinia" />
 									</div>
+									
+									
 								</div>
 							</div>
 						</div>
