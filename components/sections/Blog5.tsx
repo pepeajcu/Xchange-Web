@@ -78,7 +78,7 @@ export default function Blog5() {
 				<div className="bouncing-blobs-container">
 					<div className="bouncing-blobs-glass" />
 					<div className="bouncing-blobs">
-						<div className="bouncing-blob bouncing-blob--infor bouncing-blob--infor-2" />
+					<div className="bouncing-blob bouncing-blob--infor bouncing-blob--infor-2" />
 					</div>
 				</div>
 			</section>

@@ -89,7 +89,7 @@ Table of contents
   --tc-neutral-dark-800: #e5e7eb;
   --tc-neutral-dark-900: #f3f4f6;
   --tc-system-success: #64e1b0;
-  --tc-system-info: #5577a7;
+  --tc-system-info: #ff4f0a;
   --tc-system-warning: #f39e0d;
   --tc-system-danger: #ef4444;
   --tc-system-white: #ffffff;
@@ -685,7 +685,7 @@ img {
 }
 
 .bgft-1 {
-  background-color: #111827;
+  background-color: #460904;
 }
 
 .bg-neutral-100 {
@@ -1630,6 +1630,14 @@ textarea {
   border-radius: 842.878px;
   opacity: 0.15;
   background: var(--tc-theme-primary);
+}
+
+.bouncing-blob--dark {
+  width: 551.056px;
+  height: 987.859px;
+  border-radius: 987.859px;
+  opacity: 0.20;
+  background: var(--tc-theme-dark-primary-light);
 }
 
 .bouncing-blob--green {
@@ -14065,7 +14073,7 @@ a:hover {
 }
 
 .bouncing-blob--infor-2 {
-  background: #64ade1;
+  background: #ffe7d3;
 }
 
 .rectangle-bg {

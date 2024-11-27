@@ -55,7 +55,7 @@ export default function Newsletter1() {
 					<div className="bouncing-blobs-container rounded-4 fix">
 						<div className="bouncing-blobs-glass rounded-4" />
 						<div className="bouncing-blobs">
-							<div className="bouncing-blob bouncing-blob--green" />
+							<div className="bouncing-blob bouncing-blob--dark" />
 							<div className="bouncing-blob bouncing-blob--primary" />
 						</div>
 					</div>

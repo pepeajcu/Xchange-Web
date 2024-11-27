@@ -6,7 +6,7 @@ export default function PageBlog1() {
 	return (
 		<>
 
-			<Layout >
+			<Layout headerStyle={1} footerStyle={1}>
 
 				{/*Blog 5*/}
 				<section className="section-blog-1 section-padding position-relative border-top border-bottom">

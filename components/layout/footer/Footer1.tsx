@@ -37,45 +37,37 @@ export default function Footer1() {
 								<div className="col-lg-8">
 									<div className="row">
 										<div className="col-lg-3 col-md-4 col-6" data-aos="fade-zoom-in" data-aos-delay={200}>
-											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Company</h3>
+											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Solutions</h3>
 											<div className="d-flex flex-column align-items-start">
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Mission  Vision</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Our Team</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Careers</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Press  Media</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Advertising</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Testimonials</Link>
+
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">For Marketers</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">For Media Owners</Link>
+											
 											</div>
 										</div>
 										<div className="col-lg-3 col-md-4 col-6" data-aos="fade-zoom-in" data-aos-delay={300}>
-											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Guides</h3>
+											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Knowledege Center</h3>
 											<div className="d-flex flex-column align-items-start">
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Our Journeys</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Solutions</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Customers</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">News  Events</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Project management</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Help Center</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Blog</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">News</Link>
+												
 											</div>
 										</div>
 										<div className="col-lg-3 col-md-4 col-6" data-aos="fade-zoom-in" data-aos-delay={400}>
-											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Services</h3>
+											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Company</h3>
 											<div className="d-flex flex-column align-items-start">
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Project software</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Resource software</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Workflow</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Gantt chart makers</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Project dashboards</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Task software</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Our Story</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Our Team</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Contact</Link>
+		
 											</div>
 										</div>
 										<div className="col-lg-3 col-md-4 col-6" data-aos="fade-zoom-in" data-aos-delay={500}>
-											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Resource</h3>
+											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Login</h3>
 											<div className="d-flex flex-column align-items-start">
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Knowledge Base</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Documents</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">System Status</Link>
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Security</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">Y.O.D.A</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#">SSP Y.O.D.A</Link>
+												
 											</div>
 										</div>
 									</div>

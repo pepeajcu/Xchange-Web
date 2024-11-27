@@ -79,7 +79,7 @@ export default function Hero3() {
 								</div>
 							</div>
 							<div className="position-absolute top-50 start-50 translate-middle pb-10 pe-10">
-								<img className="rotateme" src="/assets/imgs/hero-3/star-rotate.png" alt="infinia" />
+								<img className="rotateme" src="/assets/imgs/hero-33/star-rotate.png" alt="infinia" />
 							</div>
 							<div className="position-absolute top-50 start-50 translate-middle">
 								<div className="ellipse-primary" />
