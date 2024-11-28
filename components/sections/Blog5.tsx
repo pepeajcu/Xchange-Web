@@ -29,18 +29,18 @@ export default function Blog5() {
 								<img className="rounded rounded-bottom-0 rounded-start-lg rounded-end-lg-0 w-100 w-lg-auto" src="/assets/imgs/blog-5/img-1.png" alt="infinia" />
 								<div className="bg-white align-self-stretch rounded rounded-start-lg-0 p-5">
 									<Link href="#" className="z-1 position-relative bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1 mb-2">
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">business</span>
+										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">OOH</span>
 									</Link>
-									<h6 className="mb-3">The Future of SaaS: Emerging Trends to Watch</h6>
-									<p>As the SaaS industry continues to evolve, new trends are shaping the future of software delivery and consumption...</p>
+									<h6 className="mb-3">The Power of OOH: Beyond Billboards.</h6>
+									<p>Discover how outdoor advertising connects brands with audiences at key moments, transforming everyday spaces into unforgettable opportunities...</p>
 									<div className="d-flex align-items-center justify-content-between mt-5 pt-5 border-top">
 										<div className="d-flex align-items-center position-relative z-1">
 											<div className="icon-shape rounded-circle border border-2 border-white">
 												<img className="rounded-circle" src="/assets/imgs/blog-4/avatar-1.png" alt="infinia" />
 											</div>
 											<div className="ms-3">
-												<h6 className="fs-7 m-0 mb-1">Evara Rose</h6>
-												<p className="mb-0 fs-8">17 May 2024</p>
+												<h6 className="fs-7 m-0 mb-1">José Ajcú</h6>
+												<p className="mb-0 fs-8">17 Dic 2024</p>
 											</div>
 											<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 										</div>
@@ -58,17 +58,17 @@ export default function Blog5() {
 						<div className="col-lg-5">
 							<div>
 								<Link href="#" className="d-flex flex-column flex-md-row align-items-center hover-up">
-									<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/blog-5/img-2.png" alt="infinia" />
+									<img className="rounded-3 w-md-auto w-100"  src="/assets/imgs/blog-5/img-2.png" alt="infinia" />
 									<div className="content ms-5 mt-4 mt-md-0">
-										<h6 className="mb-2">Why Consistent Brand Identity is Key to Business Success</h6>
-										<p className="mb-0">As the SaaS industry continues to evolve, new trends are shaping the future of software delivery and consumption...</p>
+										<h6 className="mb-2">DOOH: The Digital Revolution in Outdoor Advertising</h6>
+										<p className="mb-0">Explore how digital displays are taking outdoor advertising to the next level with dynamic content, real-time targeting and greater impact....</p>
 									</div>
 								</Link>
 								<Link href="#" className="d-flex flex-column flex-md-row align-items-center mt-7 hover-up">
-									<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/blog-5/img-3.png" alt="infinia" />
+									<img className="rounded-3 w-md-auto w-100"  src="/assets/imgs/blog-5/img-3.png" alt="infinia"/>
 									<div className="content ms-5 mt-4 mt-md-0">
-										<h6 className="mb-2">The Importance of Data Security in Your SaaS Projects</h6>
-										<p className="mb-0">As the SaaS industry continues to evolve, new trends are shaping the future of software delivery and consumption...</p>
+										<h6 className="mb-2">Programmatic DOOH: Accuracy and Scalability in your Campaigns.</h6>
+										<p className="mb-0">Learn how automation and real-time data are changing the way outdoor advertising space is bought and managed....</p>
 									</div>
 								</Link>
 							</div>

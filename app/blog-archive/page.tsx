@@ -10,11 +10,9 @@ export default function PageBlog1() {
 
 			<Layout headerStyle={1} footerStyle={1}>
 
-				
-				
 				<Blog5 />
-
 				<Newsletter1 />
+
 			</Layout>
 		</>
 	)
