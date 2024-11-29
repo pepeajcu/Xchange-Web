@@ -46,7 +46,7 @@ export default function Services3() {
 					<div className="text-center">
 						<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">DOOH & OOH the best for your brand</span>
+							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">The best DOOH & OOH for your brand</span>
 						</div>
 						 
 						<h3 className="ds-3 my-3 fw-regular">The Best in<span className=" fw-bold"> Outdoor Advertising <br className="d-lg-block d-none" /></span>for Your Brand</h3>
