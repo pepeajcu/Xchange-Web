@@ -67,6 +67,21 @@ export default function Contact6() {
 																</svg>
 															</div>
 															<input type="text" className="form-control ms-0 border rounded-2 rounded-start-0 border-start-0" name="name" placeholder="Subject" aria-label="subject" />
+															
+															<div className="input-group d-flex align-items-center mt-4">
+																<div className="icon-input border border-end-0 rounded-2 rounded-end-0 ps-3">
+																	<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
+																		<path className="stroke-dark" d="M12 11.25C13.7949 11.25 15.25 9.79493 15.25 8C15.25 6.20507 13.7949 4.75 12 4.75C10.2051 4.75 8.75 6.20507 8.75 8C8.75 9.79493 10.2051 11.25 12 11.25Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+																		<path className="stroke-dark" d="M6.84723 19.25H17.1522C18.2941 19.25 19.1737 18.2681 18.6405 17.2584C17.856 15.7731 16.0677 14 11.9997 14C7.93174 14 6.1434 15.7731 5.35897 17.2584C4.8257 18.2681 5.70531 19.25 6.84723 19.25Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+																	</svg>
+																</div>
+																<select className="form-select ms-0 border rounded-2 rounded-start-0 border-start-0" aria-label="Default select example">
+																	<option value="">Region</option>
+																	<option value="norte">Region Norte</option>
+																	<option value="sur">Region Sur</option>
+																</select>
+															</div>
+
 														</div>
 													</div>
 													<div className="col-12">
@@ -85,29 +100,29 @@ export default function Contact6() {
 														<div>
 															<div className="form-check mb-2">
 																<input className="form-check-input" type="checkbox" id="flexCheckCheck" defaultChecked />
-																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckCheck"> Research planning </label>
+																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckCheck"> SSP </label>
 															</div>
 															<div className="form-check mb-2 me-3">
 																<input className="form-check-input" type="checkbox" id="flexCheckDefault-1" />
-																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-1"> Finance Advisory </label>
+																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-1"> DOOH </label>
 															</div>
 															<div className="form-check mb-2 me-3">
 																<input className="form-check-input" type="checkbox" id="flexCheckDefault-2" />
-																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-2"> Business promotion </label>
+																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-2"> OOH </label>
 															</div>
 														</div>
 														<div className="ms-8">
 															<div className="form-check mb-2 me-3">
 																<input className="form-check-input" type="checkbox" id="flexCheckDefault03" />
-																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault03"> Business Consultancy </label>
+																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault03"> DSP </label>
 															</div>
 															<div className="form-check mb-2">
 																<input className="form-check-input" type="checkbox" id="flexCheckDefault-4" defaultChecked />
-																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-4"> Finance Advisory </label>
+																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-4"> Indoor </label>
 															</div>
 															<div className="form-check mb-2 me-3">
 																<input className="form-check-input" type="checkbox" id="flexCheckDefault-5" />
-																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-5"> Business promotion </label>
+																<label className="form-check-label text-900 fw-bold" htmlFor="flexCheckDefault-5"> Analytics </label>
 															</div>
 														</div>
 													</div>
@@ -142,23 +157,7 @@ export default function Contact6() {
 												</svg>
 												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat via Whatsapp</Link>
 											</div>
-											<div className="d-flex mb-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
-													<g clipPath="url(#clip0_602_10664)">
-														<path d="M13.0462 10.4449C12.692 10.0905 12.2195 9.89537 11.7159 9.89537C11.2122 9.89537 10.7397 10.0906 10.3854 10.445L10.1182 10.7122C10.054 10.7765 9.96759 10.8118 9.87497 10.8118C9.78239 10.8118 9.69607 10.7765 9.63189 10.7123L7.79083 8.87127C7.65903 8.73943 7.65903 8.5167 7.79068 8.38506L8.05833 8.1176C8.79185 7.38396 8.79181 6.19037 8.05829 5.45682L7.52341 4.92205C7.16907 4.56768 6.69657 4.37256 6.19302 4.37256C5.68946 4.37256 5.217 4.56772 4.86294 4.92186L4.78997 4.99475C3.94462 5.84025 3.63767 7.09893 3.92571 8.539C4.1965 9.89299 4.97044 11.2635 6.10497 12.3983C7.53482 13.8279 9.35622 14.6815 10.9772 14.6816H10.9776C11.9999 14.6816 12.8752 14.3468 13.5092 13.7128L13.5813 13.6406C14.3147 12.9071 14.3148 11.7135 13.5812 10.9799L13.0462 10.4449ZM12.7521 12.8123L12.6801 12.8845C12.2711 13.2935 11.6824 13.5097 10.9775 13.5097C10.9775 13.5097 10.9773 13.5097 10.9773 13.5097C9.66017 13.5096 8.14849 12.7843 6.93357 11.5696C5.96083 10.5967 5.30071 9.43877 5.07478 8.30916C4.86607 7.26561 5.05923 6.38279 5.61841 5.82354L5.69138 5.75064C5.82435 5.61764 6.00251 5.54439 6.19302 5.54439C6.38357 5.54439 6.56173 5.61764 6.69478 5.75068L7.22966 6.28545C7.5063 6.56209 7.5063 7.01225 7.22978 7.28885L6.96212 7.55635C6.3713 8.14729 6.3713 9.10889 6.9622 9.6999L8.80325 11.5409C9.08876 11.8265 9.46939 11.9837 9.87505 11.9837C10.2806 11.9837 10.6613 11.8265 10.947 11.5408L11.2142 11.2735C11.3472 11.1405 11.5254 11.0672 11.7159 11.0672C11.9065 11.0672 12.0846 11.1405 12.2176 11.2735L12.7526 11.8085C13.0292 12.0851 13.0292 12.5353 12.7521 12.8123Z" fill="#6B7280" />
-														<path d="M9.77246 8.15234C10.0912 8.15234 10.3505 8.4116 10.3505 8.73027C10.3505 9.05387 10.6128 9.31621 10.9364 9.31621C11.26 9.31621 11.5223 9.05387 11.5223 8.73027C11.5223 7.76543 10.7373 6.98047 9.77246 6.98047C9.44887 6.98047 9.18652 7.24281 9.18652 7.56641C9.18652 7.89 9.44883 8.15234 9.77246 8.15234Z" fill="#6B7280" />
-														<path d="M9.77246 5.82426C10.5486 5.82426 11.2783 6.12652 11.8271 6.67535C12.3759 7.22422 12.6782 7.95395 12.6781 8.73012C12.6781 9.05371 12.9404 9.31605 13.264 9.31605C13.5876 9.31605 13.85 9.05371 13.85 8.73012C13.85 7.64094 13.4259 6.61687 12.6557 5.84672C11.8856 5.07652 10.8616 4.65234 9.77246 4.65234C9.44887 4.65234 9.18652 4.91469 9.18652 5.23828C9.18652 5.56188 9.44883 5.82426 9.77246 5.82426Z" fill="#6B7280" />
-														<path d="M9.77246 2.32471C9.44887 2.32471 9.18652 2.58705 9.18652 2.91064C9.18652 3.23424 9.44887 3.49658 9.77246 3.49658C12.6582 3.49658 15.006 5.84439 15.006 8.73018C15.006 9.05377 15.2684 9.31611 15.592 9.31611C15.9155 9.31611 16.1779 9.05377 16.1779 8.73018C16.1779 5.19818 13.3044 2.32471 9.77246 2.32471Z" fill="#6B7280" />
-														<path d="M17.2174 1.99879C15.9284 0.709844 14.2211 0 12.4099 0H7.58953C5.7784 0 4.07105 0.709844 2.78207 1.99879C1.49305 3.28777 0.783203 4.99504 0.783203 6.80617V10.2C0.783203 11.5888 1.2034 12.9271 1.99836 14.0704C2.6966 15.0744 3.63684 15.865 4.73434 16.375V18.6055C4.73434 19.9328 5.57172 20 5.73957 20C6.10824 20 6.47406 19.7891 6.82688 19.3732L8.83422 17.0062H12.41C14.2212 17.0062 15.9285 16.2963 17.2174 15.0074C18.5064 13.7184 19.2162 12.0112 19.2162 10.2V6.80621C19.2162 4.99504 18.5064 3.28773 17.2174 1.99879ZM18.0443 10.2C18.0443 13.3067 15.5167 15.8343 12.4099 15.8343H8.56281C8.39066 15.8343 8.22727 15.91 8.11594 16.0412L5.93316 18.6152C5.9241 18.6259 5.91523 18.6361 5.90664 18.6458C5.90637 18.6329 5.90621 18.6195 5.90621 18.6055V15.9892C5.90621 15.7487 5.75926 15.5326 5.53555 15.4442C3.39395 14.5982 1.95508 12.4907 1.95508 10.1999V6.80613C1.95508 3.69941 4.48266 1.17188 7.58953 1.17188H12.4099C15.5167 1.17188 18.0443 3.69941 18.0443 6.80617V10.2Z" fill="#6B7280" />
-													</g>
-													<defs>
-														<clipPath>
-															<rect width={20} height={20} fill="white" />
-														</clipPath>
-													</defs>
-												</svg>
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat via Viber</Link>
-											</div>
+											
 											<div className="d-flex mb-2 mb-5">
 												<svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
 													<path fillRule="evenodd" clipRule="evenodd" d="M10.0003 1.4585C14.962 1.4585 18.9587 5.1185 18.9587 9.5835C18.9587 14.0485 14.962 17.7085 10.0003 17.7085C8.83533 17.7085 7.72199 17.506 6.70199 17.1393L4.02949 18.476C3.82199 18.5793 3.57449 18.5602 3.38533 18.4243C3.19699 18.2893 3.09949 18.0602 3.13116 17.8302L3.50283 15.176C1.97449 13.716 1.04199 11.746 1.04199 9.5835C1.04199 5.1185 5.03866 1.4585 10.0003 1.4585ZM10.0003 2.7085C5.76283 2.7085 2.29199 5.77016 2.29199 9.5835C2.29199 11.4977 3.17199 13.226 4.58033 14.4693C4.73783 14.6077 4.81533 14.816 4.78616 15.0243L4.53366 16.826L6.38783 15.8993C6.54616 15.8202 6.73116 15.8118 6.89616 15.8768C7.84699 16.251 8.89699 16.4585 10.0003 16.4585C14.2378 16.4585 17.7087 13.3968 17.7087 9.5835C17.7087 5.77016 14.2378 2.7085 10.0003 2.7085Z" fill="#6B7280" />
@@ -172,13 +171,13 @@ export default function Contact6() {
 												<svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
 													<path d="M18.2422 2.96875H1.75781C0.786602 2.96875 0 3.76023 0 4.72656V15.2734C0 16.2455 0.792383 17.0312 1.75781 17.0312H18.2422C19.2053 17.0312 20 16.2488 20 15.2734V4.72656C20 3.76195 19.2165 2.96875 18.2422 2.96875ZM17.996 4.14062C17.6369 4.49785 11.4564 10.6458 11.243 10.8581C10.9109 11.1901 10.4695 11.3729 10 11.3729C9.53047 11.3729 9.08906 11.1901 8.75594 10.857C8.61242 10.7142 2.50012 4.63414 2.00398 4.14062H17.996ZM1.17188 15.0349V4.96582L6.23586 10.0031L1.17188 15.0349ZM2.00473 15.8594L7.06672 10.8296L7.9284 11.6867C8.48176 12.2401 9.21746 12.5448 10 12.5448C10.7825 12.5448 11.5182 12.2401 12.0705 11.6878L12.9333 10.8296L17.9953 15.8594H2.00473ZM18.8281 15.0349L13.7641 10.0031L18.8281 4.96582V15.0349Z" fill="#6B7280" />
 												</svg>
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">support@infinia.com</Link>
+												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">support@xchangeooh.com</Link>
 											</div>
 											<div className="d-flex mb-2 mb-5">
 												<svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
 													<path d="M18.2422 2.96875H1.75781C0.786602 2.96875 0 3.76023 0 4.72656V15.2734C0 16.2455 0.792383 17.0312 1.75781 17.0312H18.2422C19.2053 17.0312 20 16.2488 20 15.2734V4.72656C20 3.76195 19.2165 2.96875 18.2422 2.96875ZM17.996 4.14062C17.6369 4.49785 11.4564 10.6458 11.243 10.8581C10.9109 11.1901 10.4695 11.3729 10 11.3729C9.53047 11.3729 9.08906 11.1901 8.75594 10.857C8.61242 10.7142 2.50012 4.63414 2.00398 4.14062H17.996ZM1.17188 15.0349V4.96582L6.23586 10.0031L1.17188 15.0349ZM2.00473 15.8594L7.06672 10.8296L7.9284 11.6867C8.48176 12.2401 9.21746 12.5448 10 12.5448C10.7825 12.5448 11.5182 12.2401 12.0705 11.6878L12.9333 10.8296L17.9953 15.8594H2.00473ZM18.8281 15.0349L13.7641 10.0031L18.8281 4.96582V15.0349Z" fill="#6B7280" />
 												</svg>
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">sale@infinia.com</Link>
+												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">sale@xchangeooh.com</Link>
 											</div>
 											<h6>For more inquiry</h6>
 											<p className="text-500">Reach out for immediate assistance</p>
